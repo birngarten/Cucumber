@@ -1,0 +1,342 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 781636200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici \"https://kese.nl/login\" adresine gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://kese.nl/login\"",
+                  "offset": 10
+                }
+              ],
+              "location": "step_definitions.US001_StepDef.kullanici_adresine_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-06T20:03:30.125Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2593658800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "TC_001 Email inputu kullanilabilir olmalidir",
+        "description": "",
+        "id": "us-010;tc-001-email-inputu-kullanilabilir-olmalidir",
+        "after": [
+          {
+            "result": {
+              "duration": 3308580000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 229090300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici login sayfasinda email inputunun kullanilabilir oldugunu dogrular",
+            "match": {
+              "location": "step_definitions.US010_StepDef.kullanici_login_sayfasinda_email_inputunun_kullanilabilir_oldugunu_dogrular()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US_010"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 838739200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici \"https://kese.nl/login\" adresine gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://kese.nl/login\"",
+                  "offset": 10
+                }
+              ],
+              "location": "step_definitions.US001_StepDef.kullanici_adresine_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-06T20:03:37.150Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1376635600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "TC_002\tSifre inputu kullanilabilir olmalidir",
+        "description": "",
+        "id": "us-010;tc-002-sifre-inputu-kullanilabilir-olmalidir",
+        "after": [
+          {
+            "result": {
+              "duration": 3293083400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 186337500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "kullanici login sayfasinda password inputunun kullanilabilir oldugunu dogrular",
+            "match": {
+              "location": "step_definitions.US010_StepDef.kullanici_login_sayfasinda_password_inputunun_kullanilabilir_oldugunu_dogrular()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US_010"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1214249200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici \"https://kese.nl/login\" adresine gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://kese.nl/login\"",
+                  "offset": 10
+                }
+              ],
+              "location": "step_definitions.US001_StepDef.kullanici_adresine_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-06T20:03:42.854Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1448988300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "TC_003\tEmail inputu \"Placeholder\" degeri \"Email giriniz\" olmalidir",
+        "description": "",
+        "id": "us-010;tc-003-email-inputu-\"placeholder\"-degeri-\"email-giriniz\"-olmalidir",
+        "after": [
+          {
+            "result": {
+              "duration": 3286845800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 48877800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "kullanici login sayfasinda email inputunun placeholder degerinin \"Email giriniz\" oldugunu dogrular",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Email giriniz\"",
+                  "offset": 65
+                }
+              ],
+              "location": "step_definitions.US010_StepDef.kullanici_login_sayfasinda_email_inputunun_placeholder_degerinin_oldugunu_dogrular(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US_010"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1085071100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici \"https://kese.nl/login\" adresine gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://kese.nl/login\"",
+                  "offset": 10
+                }
+              ],
+              "location": "step_definitions.US001_StepDef.kullanici_adresine_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-06T20:03:48.864Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1432824800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "TC_004\tSifre inputu \"Placeholder\" degeri \"Şifrenizi giriniz\" olmalidir",
+        "description": "",
+        "id": "us-010;tc-004-sifre-inputu-\"placeholder\"-degeri-\"şifrenizi-giriniz\"-olmalidir",
+        "after": [
+          {
+            "result": {
+              "duration": 3273942500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 63050100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "kullanici login sayfasinda password inputunun placeholder degerinin \"Şifrenizi giriniz\" oldugunu dogrular",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Şifrenizi giriniz\"",
+                  "offset": 68
+                }
+              ],
+              "location": "step_definitions.US010_StepDef.kullanici_login_sayfasinda_password_inputunun_placeholder_degerinin_oldugunu_dogrular(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US_010"
+          }
+        ]
+      }
+    ],
+    "name": "US_010",
+    "description": "",
+    "id": "us-010",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US010.feature",
+    "tags": [
+      {
+        "name": "@US_010",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
