@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 781636200,
+              "duration": 1050861900,
               "status": "passed"
             },
             "line": 5,
@@ -30,11 +30,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-03-06T20:03:30.125Z",
+        "start_timestamp": "2022-03-14T16:41:50.032Z",
         "before": [
           {
             "result": {
-              "duration": 2593658800,
+              "duration": 1712027700,
               "status": "passed"
             },
             "match": {
@@ -42,14 +42,14 @@
             }
           }
         ],
-        "line": 6,
-        "name": "TC_001 Email inputu kullanilabilir olmalidir",
+        "line": 7,
+        "name": "TC_001\t\"Şifremi Unuttum\" linki aktif ve görünür olmalidir",
         "description": "",
-        "id": "us-010;tc-001-email-inputu-kullanilabilir-olmalidir",
+        "id": "us-012-bir-kullanici-olarak-\"/login\"-sayfasina-girdigimde--sifremi-unuttum-bölümüne-ulasabilmeliyim;tc-001-\"şifremi-unuttum\"-linki-aktif-ve-görünür-olmalidir",
         "after": [
           {
             "result": {
-              "duration": 3308580000,
+              "duration": 3276688400,
               "status": "passed"
             },
             "match": {
@@ -62,20 +62,26 @@
         "steps": [
           {
             "result": {
-              "duration": 229090300,
+              "duration": 97099600,
               "status": "passed"
             },
-            "line": 7,
-            "name": "kullanici login sayfasinda email inputunun kullanilabilir oldugunu dogrular",
+            "line": 8,
+            "name": "kullanici \"Şifremi Unuttum\" linkinin aktif ve görünür oldugunu dogrular",
             "match": {
-              "location": "step_definitions.US010_StepDef.kullanici_login_sayfasinda_email_inputunun_kullanilabilir_oldugunu_dogrular()"
+              "arguments": [
+                {
+                  "val": "\"Şifremi Unuttum\"",
+                  "offset": 10
+                }
+              ],
+              "location": "step_definitions.US012_StepDef.kullanici_linkinin_aktif_ve_görünür_oldugunu_dogrular(java.lang.String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US_010"
+            "name": "@US_12"
           }
         ]
       },
@@ -88,7 +94,7 @@
         "steps": [
           {
             "result": {
-              "duration": 838739200,
+              "duration": 1415524900,
               "status": "passed"
             },
             "line": 5,
@@ -107,11 +113,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-03-06T20:03:37.150Z",
+        "start_timestamp": "2022-03-14T16:41:56.244Z",
         "before": [
           {
             "result": {
-              "duration": 1376635600,
+              "duration": 1258402200,
               "status": "passed"
             },
             "match": {
@@ -119,14 +125,14 @@
             }
           }
         ],
-        "line": 9,
-        "name": "TC_002\tSifre inputu kullanilabilir olmalidir",
+        "line": 10,
+        "name": "TC_002\t\"Şifremi Unuttum\" linkinin alti cizili olmalidir",
         "description": "",
-        "id": "us-010;tc-002-sifre-inputu-kullanilabilir-olmalidir",
+        "id": "us-012-bir-kullanici-olarak-\"/login\"-sayfasina-girdigimde--sifremi-unuttum-bölümüne-ulasabilmeliyim;tc-002-\"şifremi-unuttum\"-linkinin-alti-cizili-olmalidir",
         "after": [
           {
             "result": {
-              "duration": 3293083400,
+              "duration": 3242714200,
               "status": "passed"
             },
             "match": {
@@ -139,20 +145,26 @@
         "steps": [
           {
             "result": {
-              "duration": 186337500,
+              "duration": 33999800,
               "status": "passed"
             },
-            "line": 10,
-            "name": "kullanici login sayfasinda password inputunun kullanilabilir oldugunu dogrular",
+            "line": 11,
+            "name": "kullanici \"Şifremi Unuttum\" linkinin alti cizili oldugunu dogrular",
             "match": {
-              "location": "step_definitions.US010_StepDef.kullanici_login_sayfasinda_password_inputunun_kullanilabilir_oldugunu_dogrular()"
+              "arguments": [
+                {
+                  "val": "\"Şifremi Unuttum\"",
+                  "offset": 10
+                }
+              ],
+              "location": "step_definitions.US012_StepDef.kullanici_linkinin_alti_cizili_oldugunu_dogrular(java.lang.String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US_010"
+            "name": "@US_12"
           }
         ]
       },
@@ -165,7 +177,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1214249200,
+              "duration": 918171400,
               "status": "passed"
             },
             "line": 5,
@@ -184,11 +196,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-03-06T20:03:42.854Z",
+        "start_timestamp": "2022-03-14T16:42:02.208Z",
         "before": [
           {
             "result": {
-              "duration": 1448988300,
+              "duration": 1191186100,
               "status": "passed"
             },
             "match": {
@@ -196,14 +208,14 @@
             }
           }
         ],
-        "line": 12,
-        "name": "TC_003\tEmail inputu \"Placeholder\" degeri \"Email giriniz\" olmalidir",
+        "line": 13,
+        "name": "TC_003\tLinke tiklaninca \"https://kese.nl/forgot_password\" sayfasina gidilmelidir",
         "description": "",
-        "id": "us-010;tc-003-email-inputu-\"placeholder\"-degeri-\"email-giriniz\"-olmalidir",
+        "id": "us-012-bir-kullanici-olarak-\"/login\"-sayfasina-girdigimde--sifremi-unuttum-bölümüne-ulasabilmeliyim;tc-003-linke-tiklaninca-\"https://kese.nl/forgot-password\"-sayfasina-gidilmelidir",
         "after": [
           {
             "result": {
-              "duration": 3286845800,
+              "duration": 3292099500,
               "status": "passed"
             },
             "match": {
@@ -216,121 +228,56 @@
         "steps": [
           {
             "result": {
-              "duration": 48877800,
+              "duration": 227236400,
               "status": "passed"
             },
-            "line": 13,
-            "name": "kullanici login sayfasinda email inputunun placeholder degerinin \"Email giriniz\" oldugunu dogrular",
+            "line": 14,
+            "name": "kullanici \"Şifremi Unuttum\" linkine tiklar",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Email giriniz\"",
-                  "offset": 65
-                }
-              ],
-              "location": "step_definitions.US010_StepDef.kullanici_login_sayfasinda_email_inputunun_placeholder_degerinin_oldugunu_dogrular(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US_010"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1085071100,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "kullanici \"https://kese.nl/login\" adresine gider",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"https://kese.nl/login\"",
+                  "val": "\"Şifremi Unuttum\"",
                   "offset": 10
                 }
               ],
-              "location": "step_definitions.US001_StepDef.kullanici_adresine_gider(java.lang.String)"
+              "location": "step_definitions.US012_StepDef.kullanici_linkine_tiklar(java.lang.String)"
             },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-03-06T20:03:48.864Z",
-        "before": [
+            "keyword": "And "
+          },
           {
             "result": {
-              "duration": 1432824800,
+              "duration": 17956300,
               "status": "passed"
             },
-            "match": {
-              "location": "step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 15,
-        "name": "TC_004\tSifre inputu \"Placeholder\" degeri \"Şifrenizi giriniz\" olmalidir",
-        "description": "",
-        "id": "us-010;tc-004-sifre-inputu-\"placeholder\"-degeri-\"şifrenizi-giriniz\"-olmalidir",
-        "after": [
-          {
-            "result": {
-              "duration": 3273942500,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 63050100,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "kullanici login sayfasinda password inputunun placeholder degerinin \"Şifrenizi giriniz\" oldugunu dogrular",
+            "line": 15,
+            "name": "kullanici sayfa adresinin \"/forgot_password\" ifadesini icerdigini dogrular",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Şifrenizi giriniz\"",
-                  "offset": 68
+                  "val": "\"/forgot_password\"",
+                  "offset": 26
                 }
               ],
-              "location": "step_definitions.US010_StepDef.kullanici_login_sayfasinda_password_inputunun_placeholder_degerinin_oldugunu_dogrular(java.lang.String)"
+              "location": "step_definitions.US012_StepDef.kullanici_sayfa_adresinin_ifadesini_icerdigini_dogrular(java.lang.String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US_010"
+            "name": "@US_12"
           }
         ]
       }
     ],
-    "name": "US_010",
+    "name": "US_012 Bir kullanici olarak \"/login\" sayfasina girdigimde, sifremi unuttum bölümüne ulasabilmeliyim",
     "description": "",
-    "id": "us-010",
+    "id": "us-012-bir-kullanici-olarak-\"/login\"-sayfasina-girdigimde--sifremi-unuttum-bölümüne-ulasabilmeliyim",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/US010.feature",
+    "uri": "file:src/test/resources/features/US012.feature",
     "tags": [
       {
-        "name": "@US_010",
+        "name": "@US_12",
         "type": "Tag",
         "location": {
           "line": 1,
