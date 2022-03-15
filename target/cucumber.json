@@ -4,14 +4,14 @@
     "elements": [
       {
         "line": 4,
-        "name": "",
+        "name": "Login ve ilgili sayfaya gitme",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 1050861900,
+              "duration": 998600,
               "status": "passed"
             },
             "line": 5,
@@ -26,15 +26,33 @@
               "location": "step_definitions.US001_StepDef.kullanici_adresine_gider(java.lang.String)"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "kullanici \"kullanici1@gmail.com\" ve \"1234\" bilgileri ile sisteme giris yapar",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "kullanici \"https://kese.nl/new_room\" sayfasina gider",
+            "match": {},
+            "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2022-03-14T16:41:50.032Z",
+        "start_timestamp": "2022-03-14T19:41:09.544Z",
         "before": [
           {
             "result": {
-              "duration": 1712027700,
+              "duration": 1060500,
               "status": "passed"
             },
             "match": {
@@ -42,14 +60,13 @@
             }
           }
         ],
-        "line": 7,
-        "name": "TC_001\t\"Şifremi Unuttum\" linki aktif ve görünür olmalidir",
+        "line": 9,
+        "name": "US_056 TC_001 \"Ev Tipi\" başlığı görünür olmalıdır.",
         "description": "",
-        "id": "us-012-bir-kullanici-olarak-\"/login\"-sayfasina-girdigimde--sifremi-unuttum-bölümüne-ulasabilmeliyim;tc-001-\"şifremi-unuttum\"-linki-aktif-ve-görünür-olmalidir",
+        "id": "us-056-bir-kullanıcı-olarak-\"oda-kirala-\u0026-değişim\"-ilan-oluşturma-sayfasında--1.-stepte-\"ev-tipi\"-bilgisini-girebilmeliyim.;us-056-tc-001-\"ev-tipi\"-başlığı-görünür-olmalıdır.",
         "after": [
           {
             "result": {
-              "duration": 3276688400,
               "status": "passed"
             },
             "match": {
@@ -62,39 +79,29 @@
         "steps": [
           {
             "result": {
-              "duration": 97099600,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 8,
-            "name": "kullanici \"Şifremi Unuttum\" linkinin aktif ve görünür oldugunu dogrular",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Şifremi Unuttum\"",
-                  "offset": 10
-                }
-              ],
-              "location": "step_definitions.US012_StepDef.kullanici_linkinin_aktif_ve_görünür_oldugunu_dogrular(java.lang.String)"
-            },
+            "line": 10,
+            "name": "kullanici ev tipi basliginin gorunur oldugunu dogrular",
+            "match": {},
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US_12"
+            "name": "@US_056"
           }
         ]
       },
       {
         "line": 4,
-        "name": "",
+        "name": "Login ve ilgili sayfaya gitme",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 1415524900,
               "status": "passed"
             },
             "line": 5,
@@ -109,15 +116,32 @@
               "location": "step_definitions.US001_StepDef.kullanici_adresine_gider(java.lang.String)"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "kullanici \"kullanici1@gmail.com\" ve \"1234\" bilgileri ile sisteme giris yapar",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "kullanici \"https://kese.nl/new_room\" sayfasina gider",
+            "match": {},
+            "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2022-03-14T16:41:56.244Z",
+        "start_timestamp": "2022-03-14T19:41:09.630Z",
         "before": [
           {
             "result": {
-              "duration": 1258402200,
               "status": "passed"
             },
             "match": {
@@ -125,14 +149,13 @@
             }
           }
         ],
-        "line": 10,
-        "name": "TC_002\t\"Şifremi Unuttum\" linkinin alti cizili olmalidir",
+        "line": 12,
+        "name": "US_056 TC_002 \"Odanız hangi ev türünde yer alıyor, belirtiniz.\" açıklaması görünür olmalıdır.",
         "description": "",
-        "id": "us-012-bir-kullanici-olarak-\"/login\"-sayfasina-girdigimde--sifremi-unuttum-bölümüne-ulasabilmeliyim;tc-002-\"şifremi-unuttum\"-linkinin-alti-cizili-olmalidir",
+        "id": "us-056-bir-kullanıcı-olarak-\"oda-kirala-\u0026-değişim\"-ilan-oluşturma-sayfasında--1.-stepte-\"ev-tipi\"-bilgisini-girebilmeliyim.;us-056-tc-002-\"odanız-hangi-ev-türünde-yer-alıyor--belirtiniz.\"-açıklaması-görünür-olmalıdır.",
         "after": [
           {
             "result": {
-              "duration": 3242714200,
               "status": "passed"
             },
             "match": {
@@ -145,39 +168,30 @@
         "steps": [
           {
             "result": {
-              "duration": 33999800,
-              "status": "passed"
+              "duration": 1003400,
+              "status": "skipped"
             },
-            "line": 11,
-            "name": "kullanici \"Şifremi Unuttum\" linkinin alti cizili oldugunu dogrular",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Şifremi Unuttum\"",
-                  "offset": 10
-                }
-              ],
-              "location": "step_definitions.US012_StepDef.kullanici_linkinin_alti_cizili_oldugunu_dogrular(java.lang.String)"
-            },
+            "line": 13,
+            "name": "kullanici ev tipi aciklamasinin gorunur oldugunu dogrular",
+            "match": {},
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US_12"
+            "name": "@US_056"
           }
         ]
       },
       {
         "line": 4,
-        "name": "",
+        "name": "Login ve ilgili sayfaya gitme",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 918171400,
               "status": "passed"
             },
             "line": 5,
@@ -192,15 +206,33 @@
               "location": "step_definitions.US001_StepDef.kullanici_adresine_gider(java.lang.String)"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "kullanici \"kullanici1@gmail.com\" ve \"1234\" bilgileri ile sisteme giris yapar",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 295200,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "kullanici \"https://kese.nl/new_room\" sayfasina gider",
+            "match": {},
+            "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2022-03-14T16:42:02.208Z",
+        "start_timestamp": "2022-03-14T19:41:09.646Z",
         "before": [
           {
             "result": {
-              "duration": 1191186100,
               "status": "passed"
             },
             "match": {
@@ -208,14 +240,13 @@
             }
           }
         ],
-        "line": 13,
-        "name": "TC_003\tLinke tiklaninca \"https://kese.nl/forgot_password\" sayfasina gidilmelidir",
+        "line": 15,
+        "name": "US_056 TC_003 \"Müstakil Ev\", \"Apartman Dairesi\" ve \"Stüdyo Daire\"  seçenekleri görünür olmalıdır.",
         "description": "",
-        "id": "us-012-bir-kullanici-olarak-\"/login\"-sayfasina-girdigimde--sifremi-unuttum-bölümüne-ulasabilmeliyim;tc-003-linke-tiklaninca-\"https://kese.nl/forgot-password\"-sayfasina-gidilmelidir",
+        "id": "us-056-bir-kullanıcı-olarak-\"oda-kirala-\u0026-değişim\"-ilan-oluşturma-sayfasında--1.-stepte-\"ev-tipi\"-bilgisini-girebilmeliyim.;us-056-tc-003-\"müstakil-ev\"--\"apartman-dairesi\"-ve-\"stüdyo-daire\"--seçenekleri-görünür-olmalıdır.",
         "after": [
           {
             "result": {
-              "duration": 3292099500,
               "status": "passed"
             },
             "match": {
@@ -228,56 +259,370 @@
         "steps": [
           {
             "result": {
-              "duration": 227236400,
+              "duration": 200200,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "kullanici ev tipi seceneklerinin gorunur oldugunu dogrular",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US_056"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Login ve ilgili sayfaya gitme",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
               "status": "passed"
             },
-            "line": 14,
-            "name": "kullanici \"Şifremi Unuttum\" linkine tiklar",
+            "line": 5,
+            "name": "kullanici \"https://kese.nl/login\" adresine gider",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Şifremi Unuttum\"",
+                  "val": "\"https://kese.nl/login\"",
                   "offset": 10
                 }
               ],
-              "location": "step_definitions.US012_StepDef.kullanici_linkine_tiklar(java.lang.String)"
+              "location": "step_definitions.US001_StepDef.kullanici_adresine_gider(java.lang.String)"
             },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "kullanici \"kullanici1@gmail.com\" ve \"1234\" bilgileri ile sisteme giris yapar",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "kullanici \"https://kese.nl/new_room\" sayfasina gider",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-14T19:41:09.663Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "US_056 TC_004 \"Müstakil Ev\", \"Apartman Dairesi\" ve \"Stüdyo Daire\"  seçenekleri seçilebilir olmalıdır.",
+        "description": "",
+        "id": "us-056-bir-kullanıcı-olarak-\"oda-kirala-\u0026-değişim\"-ilan-oluşturma-sayfasında--1.-stepte-\"ev-tipi\"-bilgisini-girebilmeliyim.;us-056-tc-004-\"müstakil-ev\"--\"apartman-dairesi\"-ve-\"stüdyo-daire\"--seçenekleri-seçilebilir-olmalıdır.",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "kullanici mustakil ev secenegine tiklar",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 17956300,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "kullanici mustakil ev seceneginin secili oldugunu dogrular",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "kullanici apartman dairesi secenegine tiklar",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "kullanici apartman dairesi seceneginin secili oldugunu dogrular",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "kullanici studyo daire secenegine tiklar",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "kullanici studyo daire seceneginin secili oldugunu dogrular",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US_056"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Login ve ilgili sayfaya gitme",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
               "status": "passed"
             },
-            "line": 15,
-            "name": "kullanici sayfa adresinin \"/forgot_password\" ifadesini icerdigini dogrular",
+            "line": 5,
+            "name": "kullanici \"https://kese.nl/login\" adresine gider",
             "match": {
               "arguments": [
                 {
-                  "val": "\"/forgot_password\"",
-                  "offset": 26
+                  "val": "\"https://kese.nl/login\"",
+                  "offset": 10
                 }
               ],
-              "location": "step_definitions.US012_StepDef.kullanici_sayfa_adresinin_ifadesini_icerdigini_dogrular(java.lang.String)"
+              "location": "step_definitions.US001_StepDef.kullanici_adresine_gider(java.lang.String)"
             },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "kullanici \"kullanici1@gmail.com\" ve \"1234\" bilgileri ile sisteme giris yapar",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "kullanici \"https://kese.nl/new_room\" sayfasina gider",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-14T19:41:09.679Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "US_056 TC_005 \"Odami kiraya vermek istiyorum\" ve \"Karşılıklı oda değişimi yapmak istiyorum\" checkboxları kullanılabilir olmalıdır.",
+        "description": "",
+        "id": "us-056-bir-kullanıcı-olarak-\"oda-kirala-\u0026-değişim\"-ilan-oluşturma-sayfasında--1.-stepte-\"ev-tipi\"-bilgisini-girebilmeliyim.;us-056-tc-005-\"odami-kiraya-vermek-istiyorum\"-ve-\"karşılıklı-oda-değişimi-yapmak-istiyorum\"-checkboxları-kullanılabilir-olmalıdır.",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "kullanici odami kiraya vermek istiyorum secenegine tiklar",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998400,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "kullanici odami kiraya vermek istiyorum seceneginin secili oldugunu dogrular",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "kullanici karsilikli oda degisimi yapmak istiyorum secenegine tiklar",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "kullanici karsilikli oda degisimi yapmak istiyorum seceneginin secili oldugunu dogrular",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US_056"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Login ve ilgili sayfaya gitme",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici \"https://kese.nl/login\" adresine gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://kese.nl/login\"",
+                  "offset": 10
+                }
+              ],
+              "location": "step_definitions.US001_StepDef.kullanici_adresine_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "kullanici \"kullanici1@gmail.com\" ve \"1234\" bilgileri ile sisteme giris yapar",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "kullanici \"https://kese.nl/new_room\" sayfasina gider",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-14T19:41:09.692Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "US_056 TC_006 \"1 / 10\" yazısı görünür olmalıdır.",
+        "description": "",
+        "id": "us-056-bir-kullanıcı-olarak-\"oda-kirala-\u0026-değişim\"-ilan-oluşturma-sayfasında--1.-stepte-\"ev-tipi\"-bilgisini-girebilmeliyim.;us-056-tc-006-\"1-/-10\"-yazısı-görünür-olmalıdır.",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "kullanici step durumu bilgisinin \"1 / 10\" oldugunu dogrular",
+            "match": {},
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US_12"
+            "name": "@US_056"
           }
         ]
       }
     ],
-    "name": "US_012 Bir kullanici olarak \"/login\" sayfasina girdigimde, sifremi unuttum bölümüne ulasabilmeliyim",
+    "name": "US_056 Bir kullanıcı olarak \"Oda Kirala \u0026 Değişim\" ilan oluşturma sayfasında, 1. stepte \"Ev Tipi\" bilgisini girebilmeliyim.",
     "description": "",
-    "id": "us-012-bir-kullanici-olarak-\"/login\"-sayfasina-girdigimde--sifremi-unuttum-bölümüne-ulasabilmeliyim",
+    "id": "us-056-bir-kullanıcı-olarak-\"oda-kirala-\u0026-değişim\"-ilan-oluşturma-sayfasında--1.-stepte-\"ev-tipi\"-bilgisini-girebilmeliyim.",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/US012.feature",
+    "uri": "file:src/test/resources/features/US056.feature",
     "tags": [
       {
-        "name": "@US_12",
+        "name": "@US_056",
         "type": "Tag",
         "location": {
           "line": 1,

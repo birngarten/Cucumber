@@ -22,6 +22,5 @@ public class US001_StepDef {
         boolean isDisplayed = homePage.seyahatinTadiniCikartin.isDisplayed();
         Assert.assertTrue(isDisplayed);
 
-
     }
 }

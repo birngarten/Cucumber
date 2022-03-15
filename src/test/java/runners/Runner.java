@@ -10,8 +10,8 @@ import org.junit.runner.RunWith;
                 "html:target/default-html-reports.html"},
         features = "src/test/resources/features",
         glue = "step_definitions",
-        tags = "@US_12",
-        dryRun = false
+        tags = "@US_056",
+        dryRun = true
 )
 public class Runner {
 }
